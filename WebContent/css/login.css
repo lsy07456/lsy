@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+<!--
+元素选择器--> input {
+	width: 300px;
+}
+body {
+	background-image:url(../img/user_login.jpg);
+	background-size: 100%, 100%;
+	font-size: 20px;
+	color:blue;
+}
+
+table{
+	height:270px;
+	width:400px;
+}
+
+td {
+	height:60px;
+	text-align: center;
+}
+
+input{
+	height:30px;
+}
+tr {
+	height:30px;
+}
+#logBtn {
+	height: 30px;
+	width: 260px;
+	background-color: #FF0;
+	text-align: center;
+	border: 3px solid #FF0;
+	border-radius: 10px;
+	text-align: center;
+}
+#login {
+	position: absolute;
+	height: 270px;
+	width: 300px;
+	right: 20%;
+	top: 30%;
+}

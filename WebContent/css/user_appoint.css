@@ -1,0 +1,43 @@
+@charset "UTF-8";
+table {
+	border: 1px solid deepskyblue;
+	text-align: center;
+	border-collapse: collapse;
+	height: 400px;
+	width: 500px;
+}
+
+th {
+	border: 1px solid deepskyblue;
+	background-color: cyan;
+	height: 30px;
+}
+
+td {
+	height: 30px;
+	border: 1px solid deepskyblue;
+}
+
+td:hover {
+	color: yellow;
+}
+
+
+input[type="button"] {
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	transition-duration: 1s;
+	margin-left: 20px;
+	outline: none
+}
+
+input[type="button"]:hover {
+	background-color: aqua;
+	width: 120px;
+	height:30px;
+}
+
+input[type="button"]:active {
+	background-color: red;
+}

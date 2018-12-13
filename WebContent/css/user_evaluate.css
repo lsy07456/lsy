@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+	font-size: 8px;
+}
+
+table {
+	border: 1px solid deepskyblue;
+	text-align: center;
+	border-collapse: collapse;
+	height: 300px;
+	width: 600px;
+}
+
+th {
+	border: 1px solid deepskyblue;
+	background-color: cyan;
+	height: 30px;
+}
+
+td {
+	width: 60px;
+	height: 30px;
+	border: 1px solid deepskyblue;
+}
+
+td:hover {
+	color: yellow;
+}
+
+input[type="button"] {
+	width: 70px;
+}
+
+input[type="button"]:hover {
+	background-color: yellow;
+}
